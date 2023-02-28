@@ -1,0 +1,35 @@
+@import "colors";
+.about{
+    width:100%;
+    height:100%;
+    background-color:$second;
+
+>main{
+    position:absolute;
+    text-transform:uppercase;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    width:100%;
+    height:100%;
+    padding:2rem;
+    justify-content: center;
+
+h1{
+    font:300 1rem $text1;
+}
+p{
+    font:400 1rem $text1;
+}}
+&::before{
+    content:"";
+    width:80%;
+    height:80%;
+    margin-left: 0px;
+    position:absolute;
+    background:no-repeat center/auto url("../assets/jas.jpg") ;
+    //background-size: 6000 px 6750 px;
+
+   //filter:blur(3px);
+}
+}
